@@ -1,38 +1,263 @@
-.App {
-  text-align: center;
+.card{
+   margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer{
+   height: 300px;
+   width: 100%;
+   background-color: black;
+   opacity: 0.9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+       #h4fot{
+           text-align: center;
+           color: white;
+       }
+#subfot{
+   width: 100%;
+   height: auto;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+#fota{
+   color: white;
+   width: 60%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#fotb{
+   color: white;
+   width: 20%;
+   height: auto;
+}
+#fotc{
+   color: white;
+   width: 20%;
+   height: auto;
+
+}
+#fotd{
+   color: white;
+   width: 20%;
+   height: auto;
+}
+#fotrp{
+   font-size: larger;
+   text-align: center;
+
+}
+#version{
+   text-align: center;
+   color: white;
+   padding-top: 8px;
+}
+#hra{
+   width: 80%;
+   height: auto;
+   border-top: 1px solid white;
+   margin: auto;
+
+}
+@media only screen and (min-width:0px) and (max-width:435px){
+
+   #centerdiv{
+       width: 300px;
+       height: 350px;
+       /* background-color: grey; */
+       /* margin-left: 30%;
+       margin-right: 30%; */
+       margin-top: 30%;
+       margin-left: 20px;
+       margin-right: 20px;
+       box-sizing: border-box;
+   }
+   #mainimg{
+       height: 200px;
+       width: 270px;
+       margin: auto;
+       margin-right: 40px;
+       padding-left: 35px;
+       padding-top: 20px;
+   }
+   #ptext{
+       padding-top: 30px;
+       font-size: small;
+   }
+   #abc{
+       font-size: small;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+   .crd{
+       width: 5%;
+
+   }
+   #crdc{
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+       
+   }
+   #ddc{
+       display: none;
+   }
+#dda{
+   display: none;
+}
+#ddb{
+margin-left: 20px;
+}
+   /* #abcad{
+       margin-top: 100px;
+   } */
+#abca{
+   font-size: small;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#pk{
+   font-size: small;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#bena{
+   margin: auto;
+   height: 350px;
+   width: 100%;
+   /* background-color: #964B00; */
+   display: flex;
+   flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+
+#benb{
+   margin: auto;
+   height: 350px;
+   width: 100%;
+   /* background-color: #964B00; */
+   display: flex;
+   flex-direction: row;
+}
+#benc{
+   margin: auto;
+   height: 350px;
+   width: 100%;
+   /* background-color: #964B00; */
+   display: flex;
+   flex-direction: row;
+}
+.bennum{
+text-align: center;
+color: #964B00;
+
+
+}
+.benheading{
+   color: black;
+   text-align: center;
+}
+.benpara{
+   color: grey;
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: small;
+   padding-top: -20px;
+
+}
+.ima{
+   
+}
+.benara{
+   display: none;
+}
+#cheif{
+   margin: auto;
+   height: 350px;
+   width: 100%;
+   /* background-color: #964B00; */
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+}
+.benefits{
+   height: 250px;
+   /* width: 50%; */
+   /* background-color: blueviolet; */
+   box-sizing: border-box;
+   /* background-color: red; */
+}
+.ima{
+   height: 250px;
+}
+#benb{
+   margin-top: -100px;
+}
+#benc{
+   margin-top: -100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.enefits{
+   height: 350px;
+   width: 50%;
+   /* background-color: blueviolet; */
+   box-sizing: border-box;
+   /* background-color: blue; */
+}
+.chiefpara{
+   font-size: smaller;
+   padding-left: 20px;
+}
+
+#cheiflogo{
+   height: 200px;
+   width: 240px;
+   margin-left: -20px;
+   margin-top: 75px;
+}
+.sweth3{
+   margin-left: 20px;
+}
+#joinp{
+   font-size: small;
+}
+#conp{
+   font-size: small;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#fo{
+   width: 300px;
+}
+#maini{
+   width: 80%;
+}
+#fotrp{
+   font-size: medium;
+}
+.pro{
+   font-size: x-small;
+}
+#h4fot{
+   font-weight: 600;
+}
+#menu{
+   display: none;
+}
+.benpara{
+   margin-top: -20px;
+   /* margin-top: 10px; */
+}
+.brak{
+   display: none;
+}
+.benheading{
+   font-size: large;
+}
+
 }
